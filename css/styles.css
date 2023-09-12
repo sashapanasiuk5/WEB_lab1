@@ -1,4 +1,7 @@
-
+body, html{
+	margin: 0px;
+	padding: 0px;
+}
 
 header{
 	background: #243081;
@@ -21,9 +24,113 @@ header .discount-banner{
 	
 }
 main{
-	width: 85%;
+
+	display: flex;
 }
 nav{
 	width: 	15%;
 	background: #7883CF;
+}
+
+.content{
+	width: 85%;
+	display: flex;	
+	flex-direction: column;
+}
+aside{
+	width: 25%;
+	align-self: left;
+}
+section{
+	width: 80%;
+	padding-left: 50px;	
+	padding-right: 50px;
+	padding-bottom: 50px;	
+}
+section .title{
+	text-align: center;
+	font-size: 32px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+.photos{
+	display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+}
+
+footer{
+	height: 120px;
+	background: #D6D6D6;
+	padding-left: 60px;
+
+}
+
+footer .title{
+	font-size: 26px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-right: 30px;
+	padding-left: 30px;
+	background: #FCB300;
+	border-radius: 0 0 20px 20px;
+	position: absolute;
+}
+
+footer .info{
+	margin-top: 70px;
+    font-size: 22px;
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.side-block{
+	background: #7883CF;
+	color: #ffffff;
+	padding-right: 40px;
+	padding-left: 40px;
+	padding-bottom: 40px;
+}
+
+aside .title{
+	text-align: center;
+	font-size: 24px;
+	padding-top: 28px;
+	padding-bottom: 28px;
+}
+
+.feedback .text{
+	font-size: 18px;
+	font-style: italic;
+	height: 30%
+}
+.feedback .author{
+	text-align: end;
+}
+
+.contact-form{
+	margin-top: 20px;
+	height: 70%;
+}
+
+.contact-form input,textarea{
+	border:none;
+	border-radius: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 18px;
+	font-size: 16px;
+	color: #243081;
+	outline: none;
+	margin-bottom: 20px;
+}
+
+.contact-form input[type="submit"]{
+	padding-left: 25px;
+	padding-right: 25px;
+	color: #243081;
+	background: #FCB300;
+	float: right;
 }
