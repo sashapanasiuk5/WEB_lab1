@@ -1,0 +1,29 @@
+
+
+header{
+	background: #243081;
+	padding: 35px 60px 35px 60px;
+	display: flex;
+	justify-content: space-between;
+}
+header .logo{
+	font-size: 32px;
+	color: #ffffff;
+}
+header .discount-banner{
+	background: #FCB300;
+	padding: 14px 60px 14px 18px;
+	border-radius: 30px;
+}
+
+.wrapper{
+	display: flex;
+	
+}
+main{
+	width: 85%;
+}
+nav{
+	width: 	15%;
+	background: #7883CF;
+}
