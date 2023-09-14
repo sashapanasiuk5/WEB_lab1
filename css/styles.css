@@ -199,6 +199,7 @@ aside .title{
 	color: #243081;
 	outline: none;
 	margin-bottom: 20px;
+	width: 100%;	
 }
 
 .contact-form textarea{
