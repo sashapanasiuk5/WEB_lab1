@@ -43,6 +43,8 @@ header .logo{
 	padding: 14px 60px 14px 18px;
 	border-radius: 30px;
 	position: relative;
+	min-width: 120px;
+    max-height: 18px;
 }
 .discount-banner::after{
 	content:"";
@@ -61,6 +63,7 @@ header .logo{
 main{
 
 	display: flex;
+	flex-grow: 1;
 }
 nav{
 	width: 	15%;
@@ -101,7 +104,8 @@ nav a{
 }
 aside{
 	width: 25%;
-	align-self: left;
+	display: flex;
+    flex-direction: column;
 }
 section{
 	width: 80%;
@@ -125,10 +129,9 @@ section .title{
 
 footer{
 	font-family: "Montserrat Regular";
-	height: 120px;
 	background: #D6D6D6;
 	padding-left: 60px;
-
+	padding-bottom: 30px;
 }
 
 footer .title{
@@ -147,7 +150,10 @@ footer .info{
     font-size: 22px;
     display: flex;
     width: 50%;
-    justify-content: space-between;
+    flex-direction: column;
+}
+footer .info span{
+	padding-top:10px;
 }
 
 .side-block{
@@ -178,8 +184,8 @@ aside .title{
 
 .contact-form{
 	margin-top: 20px;
-	height: 70%;
 	
+	flex-grow: 1;
 }
 
 .contact-form input,textarea{
@@ -195,6 +201,10 @@ aside .title{
 	margin-bottom: 20px;
 }
 
+.contact-form textarea{
+	resize: vertical;
+}
+
 .contact-form input[type="submit"]{
 	padding-left: 25px;
 	padding-right: 25px;
@@ -207,6 +217,7 @@ aside .title{
 .page-image{
 	height: 45%;
     width: 90%;
+    max-height: 300px;
     margin: auto;
 }
 
