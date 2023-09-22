@@ -206,6 +206,7 @@ aside .title{
 
 .contact-form textarea{
 	resize: vertical;
+	min-height: 100px;
 }
 
 .contact-form input[type="submit"]{
