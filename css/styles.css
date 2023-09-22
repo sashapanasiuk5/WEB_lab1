@@ -45,6 +45,7 @@ header .logo{
 	position: relative;
 	min-width: 120px;
     max-height: 18px;
+    align-self: center;
 }
 .discount-banner::after{
 	content:"";
@@ -131,7 +132,18 @@ footer{
 	font-family: "Montserrat Regular";
 	background: #D6D6D6;
 	padding-left: 60px;
-	padding-bottom: 30px;
+	padding-right: 60px;
+	padding-bottom: 15px;
+	display: flex;
+	justify-content: space-between;
+}
+
+footer .info{
+	display: flex;
+	justify-content: space-between;
+	font-size: 20px;
+	padding-top: 16px;
+	width: 40%;
 }
 
 footer .title{
@@ -141,21 +153,10 @@ footer .title{
 	padding-right: 10px;
 	background: #FCB300;
 	border-radius: 0 0 20px 20px;
-	position: absolute;
 	text-align: end;
 	width:150px;
 }
 
-footer .info{
-	margin-top: 70px;
-    font-size: 22px;
-    display: flex;
-    width: 50%;
-    flex-direction: column;
-}
-footer .info span{
-	padding-top:10px;
-}
 
 .side-block{
 	background: #7883CF;
